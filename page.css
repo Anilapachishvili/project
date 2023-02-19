@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.bgcolor{
+    background-color: #679CF6 ;
+    height: 100vh;
+    max-width: 100%;
+}
+.icon img{
+  height: 600px;
+  top: 145px;
+  position: absolute;
+
+}
+.whitebox{
+    position: absolute;
+    left: 1000px;
+    top: 70px;
+    background-color: white;
+    width: 450px;
+    height: 650px;
+}
+.smallbox{
+    position: absolute;
+    background-color: white;
+    width: 350px;
+    height: 400px;
+    border: 8px;
+    box-shadow: 0px 24px 48px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius:10px ;
+}
+.Signup{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.box input{
+   width: 320px;
+   height: 51px;
+   
+}
+.flexrow{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.flexrow input{
+    width: 140px;
+    height: 40px;
+}
+.lbl{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    margin-left: 20px;
+    height: 0px;
+    margin-top: 10px;
+}
+.btn{
+    border-radius: 5px;
+    border: 0;
+    font-size: 1.8rem;
+    font-weight: 400px;
+    white-space: nowrap;
+    margin-top: 40px;
+    margin-left: 60px;
+    width: 200px;
+    height: 51px;
+  
+}
+.btn--primary{
+    background-color: #29CB97;
+    color: white;
+}
+.fb{
+    margin-top: 500px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 1.8rem;
+    font-weight: 400px;
+    white-space: nowrap;
+    margin-top: 480px;
+    margin-left: 10px;
+}
+.click {
+    border-radius: 5px;
+    border: 0;
+    white-space: nowrap;
+}
+.click--prim{
+    background-color: #255B9B;
+    color: white;
+    width: 204px;
+    height: 60px;
+}
+.fbb{
+    border-radius: 5px;
+    border: 0;
+    white-space: nowrap;
+}
+.fbb--prim{
+    background-color: #00ADEE ;
+    color: white;
+    width: 204px;
+    height: 60px;
+}
+@media screen and (max-width:375px){
+
+}
